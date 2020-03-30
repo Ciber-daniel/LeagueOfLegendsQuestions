@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgba(255, 255, 255, 0.596);
+    }
+
+.init {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.init button{
+    padding: 10px 30px 10px 30px;
+    margin-top: 420px;
+
+}
+
+#container {
+    display: none;
+}    
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(179, 179, 179, 0.616);
+    padding: 100px;
+    margin: 5px;
+    border: 2px double black;
+   
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 40px;
+    align-items: center;
+
+}
+
+.option {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.options button {
+    padding: 20px;
+    background-color: green;
+}
+
+.skip_question {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+#result {
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container {
+    display: flex;
+    background-color: rgba(253, 253, 253, 0.877);
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal_container h2 {
+   margin-top: 20px;
+}
+
+
+.modal_container p {
+    margin-top: 100px;
+    font-size: 80px;
+ }
+
+
+.modal_container a {
+    display: flex;
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+ 
